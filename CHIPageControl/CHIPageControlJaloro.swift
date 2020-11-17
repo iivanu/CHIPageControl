@@ -110,6 +110,10 @@ open class CHIPageControlJaloro: CHIBasePageControl {
     override open var intrinsicContentSize: CGSize {
         return sizeThatFits(CGSize.zero)
     }
+    
+    override func getActiveDotFrame() -> CGRect? {
+        return active.frame
+    }
 
     override open func sizeThatFits(_ size: CGSize) -> CGSize {
         return CGSize(width: CGFloat(inactive.count) * self.elementWidth + CGFloat(inactive.count - 1) * self.padding,

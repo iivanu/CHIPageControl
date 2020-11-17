@@ -226,6 +226,10 @@ import UIKit
     func update(for progress: Double) {
         fatalError("Should be implemented in child class")
     }
+    
+    func getActiveDotFrame() -> CGRect? {
+        return nil
+    }
 
     deinit {
         self.displayLink?.remove(from: .current, forMode: .common)

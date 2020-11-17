@@ -35,4 +35,5 @@ protocol CHIPageControllable: class {
     var borderWidth: CGFloat { get set }
 
     func set(progress: Int, animated: Bool)
+    func getActiveDotFrame() -> CGRect?
 }

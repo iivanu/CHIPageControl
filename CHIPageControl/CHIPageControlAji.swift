@@ -96,6 +96,10 @@ open class CHIPageControlAji: CHIBasePageControl {
         let offset = dist * percent
         active.frame.origin.x = min.origin.x + offset
     }
+    
+    override func getActiveDotFrame() -> CGRect? {
+        return active.frame
+    }
 
     override open var intrinsicContentSize: CGSize {
         return sizeThatFits(CGSize.zero)
