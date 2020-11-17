@@ -147,7 +147,7 @@ open class CHIPageControlJalapeno: CHIBasePageControl {
         return sizeThatFits(CGSize.zero)
     }
     
-    override func getActiveDotFrame() -> CGRect? {
+    override open func getActiveDotFrame() -> CGRect? {
         return active.frame
     }
     

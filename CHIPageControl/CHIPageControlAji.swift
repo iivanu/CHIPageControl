@@ -97,7 +97,7 @@ open class CHIPageControlAji: CHIBasePageControl {
         active.frame.origin.x = min.origin.x + offset
     }
     
-    override func getActiveDotFrame() -> CGRect? {
+    override open func getActiveDotFrame() -> CGRect? {
         return active.frame
     }
 

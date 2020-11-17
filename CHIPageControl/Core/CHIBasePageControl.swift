@@ -227,7 +227,7 @@ import UIKit
         fatalError("Should be implemented in child class")
     }
     
-    func getActiveDotFrame() -> CGRect? {
+    open func getActiveDotFrame() -> CGRect? {
         return nil
     }
 
