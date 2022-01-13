@@ -1,702 +1,548 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "CHIPageControl::CHIPageControl" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_34";
-         buildPhases = (
-            "OBJ_37",
-            "OBJ_49"
-         );
-         dependencies = (
-         );
-         name = "CHIPageControl";
-         productName = "CHIPageControl";
-         productReference = "CHIPageControl::CHIPageControl::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "CHIPageControl::CHIPageControl::Product" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControl.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "CHIPageControl::CHIPageControlPackageTests::ProductTarget" = {
-         isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_57";
-         buildPhases = (
-         );
-         dependencies = (
-            "OBJ_60"
-         );
-         name = "CHIPageControlPackageTests";
-         productName = "CHIPageControlPackageTests";
-      };
-      "CHIPageControl::CHIPageControlTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_62";
-         buildPhases = (
-            "OBJ_65",
-            "OBJ_67"
-         );
-         dependencies = (
-            "OBJ_69"
-         );
-         name = "CHIPageControlTests";
-         productName = "CHIPageControlTests";
-         productReference = "CHIPageControl::CHIPageControlTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "CHIPageControl::CHIPageControlTests::Product" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "CHIPageControl::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_51";
-         buildPhases = (
-            "OBJ_54"
-         );
-         dependencies = (
-         );
-         name = "CHIPageControlPackageDescription";
-         productName = "CHIPageControlPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_25";
-         projectDirPath = ".";
-         targets = (
-            "CHIPageControl::CHIPageControl",
-            "CHIPageControl::SwiftPMPackageDescription",
-            "CHIPageControl::CHIPageControlPackageTests::ProductTarget",
-            "CHIPageControl::CHIPageControlTests"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "Info.plist";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "CHIBasePageControl.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "CHILayer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlAji.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlAleppo.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlChimayo.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlFresno.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlJalapeno.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlJaloro.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlPaprika.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlPuya.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControllable.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_22" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_23"
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_23" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_24"
-         );
-         name = "CHIPageControlTests";
-         path = "Tests/CHIPageControlTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_24" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControlTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_25" = {
-         isa = "PBXGroup";
-         children = (
-            "CHIPageControl::CHIPageControl::Product",
-            "CHIPageControl::CHIPageControlTests::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "Images";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_29" = {
-         isa = "PBXFileReference";
-         path = "Example";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXFileReference";
-         path = "LICENSE";
-         sourceTree = "<group>";
-      };
-      "OBJ_31" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControl.podspec";
-         sourceTree = "<group>";
-      };
-      "OBJ_34" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_35",
-            "OBJ_36"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_35" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CHIPageControl.xcodeproj/CHIPageControl_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CHIPageControl";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CHIPageControl";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_36" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CHIPageControl.xcodeproj/CHIPageControl_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CHIPageControl";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CHIPageControl";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_37" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_38",
-            "OBJ_39",
-            "OBJ_40",
-            "OBJ_41",
-            "OBJ_42",
-            "OBJ_43",
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47",
-            "OBJ_48"
-         );
-      };
-      "OBJ_38" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_39" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_41" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
-      };
-      "OBJ_42" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_43" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_44" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_45" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_18";
-      };
-      "OBJ_46" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_47" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
-      };
-      "OBJ_48" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_49" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_22",
-            "OBJ_25",
-            "OBJ_28",
-            "OBJ_29",
-            "OBJ_30",
-            "OBJ_31",
-            "OBJ_32"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_51" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_52",
-            "OBJ_53"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_52" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk",
-               "-package-description-version",
-               "5.5.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_53" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk",
-               "-package-description-version",
-               "5.5.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_54" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_55"
-         );
-      };
-      "OBJ_55" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_57" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_58",
-            "OBJ_59"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_58" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_59" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXTargetDependency";
-         target = "CHIPageControl::CHIPageControlTests";
-      };
-      "OBJ_62" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_63",
-            "OBJ_64"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_63" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CHIPageControl.xcodeproj/CHIPageControlTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CHIPageControlTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_64" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CHIPageControl.xcodeproj/CHIPageControlTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CHIPageControlTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Release";
-      };
-      "OBJ_65" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_66"
-         );
-      };
-      "OBJ_66" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
-      };
-      "OBJ_67" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_68"
-         );
-      };
-      "OBJ_68" = {
-         isa = "PBXBuildFile";
-         fileRef = "CHIPageControl::CHIPageControl::Product";
-      };
-      "OBJ_69" = {
-         isa = "PBXTargetDependency";
-         target = "CHIPageControl::CHIPageControl";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_13",
-            "OBJ_14",
-            "OBJ_15",
-            "OBJ_16",
-            "OBJ_17",
-            "OBJ_18",
-            "OBJ_19",
-            "OBJ_20",
-            "OBJ_21"
-         );
-         name = "CHIPageControl";
-         path = "Sources/CHIPageControl";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "CHIPageControl.h";
-         sourceTree = "<group>";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CHIPageControl::CHIPageControlPackageTests::ProductTarget" /* CHIPageControlPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_57 /* Build configuration list for PBXAggregateTarget "CHIPageControlPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_60 /* PBXTargetDependency */,
+			);
+			name = CHIPageControlPackageTests;
+			productName = CHIPageControlPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_38 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CHIBasePageControl.swift */; };
+		OBJ_39 /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CHILayer.swift */; };
+		OBJ_40 /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* CHIPageControlAji.swift */; };
+		OBJ_41 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CHIPageControlAleppo.swift */; };
+		OBJ_42 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CHIPageControlChimayo.swift */; };
+		OBJ_43 /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* CHIPageControlFresno.swift */; };
+		OBJ_44 /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CHIPageControlJalapeno.swift */; };
+		OBJ_45 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CHIPageControlJaloro.swift */; };
+		OBJ_46 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CHIPageControlPaprika.swift */; };
+		OBJ_47 /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CHIPageControlPuya.swift */; };
+		OBJ_48 /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* CHIPageControllable.swift */; };
+		OBJ_55 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_66 /* CHIPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CHIPageControlTests.swift */; };
+		OBJ_68 /* CHIPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CHIPageControl::CHIPageControl::Product" /* CHIPageControl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		994986F3279065EA00AC7B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CHIPageControl::CHIPageControl";
+			remoteInfo = CHIPageControl;
+		};
+		994986F4279065EA00AC7B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CHIPageControl::CHIPageControlTests";
+			remoteInfo = CHIPageControlTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CHIPageControl::CHIPageControl::Product" /* CHIPageControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CHIPageControl::CHIPageControlTests::Product" /* CHIPageControlTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CHIPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_11 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIBasePageControl.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CHILayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHILayer.swift; sourceTree = "<group>"; };
+		OBJ_13 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlAji.swift; sourceTree = "<group>"; };
+		OBJ_14 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		OBJ_15 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		OBJ_16 /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		OBJ_17 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		OBJ_18 /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		OBJ_20 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		OBJ_21 /* CHIPageControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControllable.swift; sourceTree = "<group>"; };
+		OBJ_24 /* CHIPageControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlTests.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
+		OBJ_29 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_30 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_32 /* CHIPageControl.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHIPageControl.podspec; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CHIPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_68 /* CHIPageControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* CHIPageControlTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* CHIPageControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* CHIPageControlTests.swift */,
+			);
+			name = CHIPageControlTests;
+			path = Tests/CHIPageControlTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"CHIPageControl::CHIPageControl::Product" /* CHIPageControl.framework */,
+				"CHIPageControl::CHIPageControlTests::Product" /* CHIPageControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_22 /* Tests */,
+				OBJ_25 /* Products */,
+				OBJ_28 /* Images */,
+				OBJ_29 /* Example */,
+				OBJ_30 /* LICENSE */,
+				OBJ_31 /* README.md */,
+				OBJ_32 /* CHIPageControl.podspec */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CHIPageControl */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CHIPageControl.h */,
+				OBJ_11 /* CHIBasePageControl.swift */,
+				OBJ_12 /* CHILayer.swift */,
+				OBJ_13 /* CHIPageControlAji.swift */,
+				OBJ_14 /* CHIPageControlAleppo.swift */,
+				OBJ_15 /* CHIPageControlChimayo.swift */,
+				OBJ_16 /* CHIPageControlFresno.swift */,
+				OBJ_17 /* CHIPageControlJalapeno.swift */,
+				OBJ_18 /* CHIPageControlJaloro.swift */,
+				OBJ_19 /* CHIPageControlPaprika.swift */,
+				OBJ_20 /* CHIPageControlPuya.swift */,
+				OBJ_21 /* CHIPageControllable.swift */,
+			);
+			name = CHIPageControl;
+			path = Sources/CHIPageControl;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CHIPageControl::CHIPageControl" /* CHIPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXNativeTarget "CHIPageControl" */;
+			buildPhases = (
+				OBJ_37 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControl;
+			productName = CHIPageControl;
+			productReference = "CHIPageControl::CHIPageControl::Product" /* CHIPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CHIPageControl::CHIPageControlTests" /* CHIPageControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "CHIPageControlTests" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+				OBJ_67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_69 /* PBXTargetDependency */,
+			);
+			name = CHIPageControlTests;
+			productName = CHIPageControlTests;
+			productReference = "CHIPageControl::CHIPageControlTests::Product" /* CHIPageControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CHIPageControl::SwiftPMPackageDescription" /* CHIPageControlPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "CHIPageControlPackageDescription" */;
+			buildPhases = (
+				OBJ_54 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControlPackageDescription;
+			productName = CHIPageControlPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CHIPageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CHIPageControl::CHIPageControl" /* CHIPageControl */,
+				"CHIPageControl::SwiftPMPackageDescription" /* CHIPageControlPackageDescription */,
+				"CHIPageControl::CHIPageControlPackageTests::ProductTarget" /* CHIPageControlPackageTests */,
+				"CHIPageControl::CHIPageControlTests" /* CHIPageControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_38 /* CHIBasePageControl.swift in Sources */,
+				OBJ_39 /* CHILayer.swift in Sources */,
+				OBJ_40 /* CHIPageControlAji.swift in Sources */,
+				OBJ_41 /* CHIPageControlAleppo.swift in Sources */,
+				OBJ_42 /* CHIPageControlChimayo.swift in Sources */,
+				OBJ_43 /* CHIPageControlFresno.swift in Sources */,
+				OBJ_44 /* CHIPageControlJalapeno.swift in Sources */,
+				OBJ_45 /* CHIPageControlJaloro.swift in Sources */,
+				OBJ_46 /* CHIPageControlPaprika.swift in Sources */,
+				OBJ_47 /* CHIPageControlPuya.swift in Sources */,
+				OBJ_48 /* CHIPageControllable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_55 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* CHIPageControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CHIPageControl::CHIPageControlTests" /* CHIPageControlTests */;
+			targetProxy = 994986F4279065EA00AC7B00 /* PBXContainerItemProxy */;
+		};
+		OBJ_69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CHIPageControl::CHIPageControl" /* CHIPageControl */;
+			targetProxy = 994986F3279065EA00AC7B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CHIPageControl.xcodeproj/CHIPageControl_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CHIPageControl;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CHIPageControl;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CHIPageControl.xcodeproj/CHIPageControl_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CHIPageControl;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CHIPageControl;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CHIPageControl.xcodeproj/CHIPageControlTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CHIPageControlTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CHIPageControl.xcodeproj/CHIPageControlTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CHIPageControlTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_34 /* Build configuration list for PBXNativeTarget "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_51 /* Build configuration list for PBXNativeTarget "CHIPageControlPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_52 /* Debug */,
+				OBJ_53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_57 /* Build configuration list for PBXAggregateTarget "CHIPageControlPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_58 /* Debug */,
+				OBJ_59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "CHIPageControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }
