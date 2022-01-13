@@ -1,4 +1,4 @@
-# CHIPageControl
+# CHIPageControl with SPM Support
 
 CHIPageControl is a set of cool animated page controls to replace boring UIPageControl.
 We were inspired by [Jardson Almeida dribbble shot](https://dribbble.com/shots/2578447-Page-Control-Indicator-Transitions-Collection) and implemented a few more page controls.
