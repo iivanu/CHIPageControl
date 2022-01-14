@@ -2,6 +2,7 @@
 
 CHIPageControl is a set of cool animated page controls to replace boring UIPageControl.
 We were inspired by [Jardson Almeida dribbble shot](https://dribbble.com/shots/2578447-Page-Control-Indicator-Transitions-Collection) and implemented a few more page controls.
+Fork is created for usage with Swift Package Manager
 
 Made with ❤️ by [Chili Labs](https://chililabs.io).
 
@@ -16,33 +17,9 @@ Made with ❤️ by [Chili Labs](https://chililabs.io).
 * Swift 3
 
 ## Installation
-
-### Manually
-
-Just add the `CHIPageControl` folder to your project.
-
-### CocoaPods
-
-use [CocoaPods](https://cocoapods.org) with Podfile:
-``` ruby
-pod 'CHIPageControl', '~> 0.1.3'
-
-# individual page control
-pod 'CHIPageControl/Aji'
-pod 'CHIPageControl/Aleppo'
-pod 'CHIPageControl/Chimayo'
-pod 'CHIPageControl/Fresno'
-pod 'CHIPageControl/Jalapeno'
-pod 'CHIPageControl/Jaloro'
-pod 'CHIPageControl/Paprika'
-pod 'CHIPageControl/Puya'
-```
-### Carthage
-
-use [Carthage](https://github.com/Carthage/Carthage) with Cartfile
-```ogdl
-github "ChiliLabs/CHIPageControl" ~> 0.1.3
-```
+- Go to File -> Swift Packages -> Add Package Dependency...
+- Then search for https://github.com/iivanu/CHIPageControl.git
+- And choose the version you want
 
 
 ## Usage
