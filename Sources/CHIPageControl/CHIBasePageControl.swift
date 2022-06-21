@@ -251,7 +251,7 @@ extension CHIBasePageControl {
     }
 }
 
-public protocol CHIBasePageControlDelegate: class {
+public protocol CHIBasePageControlDelegate: AnyObject {
     func didTouch(pager: CHIBasePageControl, index: Int)
 }
 
